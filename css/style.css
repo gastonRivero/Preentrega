@@ -514,10 +514,6 @@ div .accordion-body p {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 2px 2px 5px #5c5c5c;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-name: aparecer;
-          animation-name: aparecer;
 }
 
 .inicioSesionUno h3 {
