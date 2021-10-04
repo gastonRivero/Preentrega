@@ -1,8 +1,13 @@
 /*inicioMiBolsa*/
+$negro: black;
+$negroEscala:#202020;
+$gris: #5c5c5c;
+$blanco: white;
+$beige: beige;
 .productosUno{
                 h2{    
                     font-family: 'Roboto', sans-serif;
-                    color: white;
+                    color: $blanco;
                     font-size: 5rem;
                     font-weight: bold;
                     text-align: center;
@@ -21,7 +26,7 @@ ul{
         list-style: none;
         p{
         font-family: 'Klee One', cursive;
-        color: white;
+        color: $blanco;
         font-size: 2.5rem;
         font-weight: normal;
         text-align: center;
@@ -37,12 +42,12 @@ ul{
     }
         
 .productosTres{
-       background-color:#353535;
+       background-color: $gris;
        display: flex;
        flex-flow: column;
         h3{
             font-family: 'Roboto', sans-serif;
-            color: white;
+            color: $blanco;
             font-size: 3rem;
             font-weight: bold;
             text-align: center;
@@ -50,7 +55,7 @@ ul{
            }
         h4{
             font-family: 'Roboto', sans-serif;
-            color: white;
+            color: $blanco;
             font-size: 3rem;
             font-weight: bold;
             text-align: left;
@@ -63,7 +68,7 @@ ul{
             .tabla__Uno{
                     p{    
                     font-family: 'Klee One', cursive;
-                    color: white;
+                    color: $blanco;
                     font-size: 2rem;
                     font-weight: normal;
                     text-align: center;
@@ -74,7 +79,7 @@ ul{
                 .tabla__Dos{
                 p{    
                     font-family: 'Klee One', cursive;
-                    color: white;
+                    color: $blanco;
                     font-size: 1.5rem;
                     font-weight: normal;
                     text-align: center;
@@ -97,7 +102,7 @@ ul{
                         list-style: none;
                         p{
                         font-family: 'Klee One', cursive;
-                        color: white;
+                        color: $blanco;
                         font-size: 2rem;
                         font-weight: normal;
                         text-align: left;
