@@ -1,0 +1,90 @@
+/*inicioHeader*/
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(Black), to(#202020));
+    background-image: linear-gradient(Black, #202020);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 2rem;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        .headerH{
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            font-size: 3rem;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px #5c5c5c;
+          }
+        nav{            
+            li{
+                display: inline;
+            padding: 1rem;
+            margin: 2rem;
+             }
+             a{
+                font-family: 'Klee One', cursive;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: beige;
+                font-size: 1.5rem;
+                border: beige;
+             }
+        }
+    }
+/*finHeader*/
+/*inicioFooter*/
+    footer {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#202020), to(black));
+        background-image: linear-gradient(#202020, black);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        .footerH{
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            font-size: 3rem;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px #5c5c5c;
+          }
+        li {
+            display: inline;
+            padding: 2rem;
+            margin: auto;
+          }
+          a {
+            font-family: 'Klee One', cursive;
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: beige;
+            font-size: 1.2rem;
+          }
+          p{
+            font-family: 'Klee One', cursive;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: normal;
+            text-align: left;
+            font-style: italic;
+          }
+      }
+      @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .headerH {
+        animation-duration: 4s;
+        animation-name: aparecer;
+      }
+      .footerH {
+        animation-duration: 4s;
+        animation-name: aparecer;
+      }
+/*finFooter*/

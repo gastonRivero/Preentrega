@@ -1,0 +1,34 @@
+@import "fuentes";
+@import "headerfooter";
+@import "index";
+@import "productos";
+@import "nosotros";
+@import "faqs";
+@import "contacto";
+@import "iniciarSesion";
+@import "miBolsa";
+@import "tyC";
+@import "newsletter";
+@import "politicasDePrivacidad";
+
+* {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Klee One', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+
+ 
+ 

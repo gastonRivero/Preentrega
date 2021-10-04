@@ -1,0 +1,58 @@
+/*inicioContacto*/
+.sectionC1{
+      h1{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 5px #ffffff;
+      }
+      img {
+        border: solid beige;
+        
+      }
+      h3 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 4rem;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 5px #5c5c5c;
+      }
+    }
+.sectionC2{
+    
+    form{    
+        font-family: 'Klee One', cursive;
+        color: white;
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: left;
+        font-style: italic;
+    }
+
+}
+.sectionC3{
+    h4{ font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;}
+    .iconosUno{
+      a{        
+        font-size: 10px;
+        font-family: 'Klee One', cursive;
+        font-size: 1.5rem;
+        font-weight: normal;
+        text-align: left;
+        font-style: italic;
+        text-decoration:none;
+        text-transform: uppercase;
+        color: beige;
+        list-style: none;}
+    }
+}
+/*finContacto*/

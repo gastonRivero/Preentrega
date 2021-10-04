@@ -1,0 +1,847 @@
+@import url("https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Roboto:ital,wght@0,100;0,500;0,900;1,300&display=swap");
+/*inicioHeader*/
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(Black), to(#202020));
+  background-image: linear-gradient(Black, #202020);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2rem;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+header .headerH {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+header nav li {
+  display: inline;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+header nav a {
+  font-family: 'Klee One', cursive;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: beige;
+  font-size: 1.5rem;
+  border: beige;
+}
+
+/*finHeader*/
+/*inicioFooter*/
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#202020), to(black));
+  background-image: linear-gradient(#202020, black);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer .footerH {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+footer li {
+  display: inline;
+  padding: 2rem;
+  margin: auto;
+}
+
+footer a {
+  font-family: 'Klee One', cursive;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: beige;
+  font-size: 1.2rem;
+}
+
+footer p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.headerH {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.footerH {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+/*finFooter*/
+/*inicioIndex*/
+section {
+  background-image: radial-gradient(black, #202020);
+  border: 4px solid black;
+  padding: 15px;
+  margin: 10px;
+}
+
+section .section1 .section1__titulo {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+section .section1 .section1__parrafo {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: justify;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
+section .section1 .section1__img {
+  border: solid beige;
+  border: solid beige;
+  float: left;
+}
+
+.section2 {
+  background-color: #333333;
+  border: 4px solid black;
+  padding: 15px;
+  margin: 10px;
+}
+
+.section2 .section2__titulo {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+.section2 .section2__parrafo {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
+/*finIndex*/
+/*inicioProductos*/
+section {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-weight: normal;
+  font-style: italic;
+  background-color: #4F4F4D;
+}
+
+section h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section .productosUno .productos__P1 {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
+section .productosUno .productos__P2 {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
+section .productosDos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .productosDos ul li {
+  list-style: none;
+}
+
+section .productosDos ul li p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  line-height: 3rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+section .productosDos ul li ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+section .productosDos ul li ol .li__Uno {
+  list-style: none;
+}
+
+section .productosDos ul li ol .li__Uno p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+  line-height: 2.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1.5rem;
+}
+
+section .productosDos ul li ol .li__Dos {
+  list-style: none;
+}
+
+section .productosDos ul li ol .li__Dos p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+  line-height: 2.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1.5rem;
+}
+
+section .productosDos ul li ol .li__Tres {
+  list-style: none;
+}
+
+section .productosDos ul li ol .li__Tres p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+  line-height: 2.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1.5rem;
+}
+
+section .productosTres {
+  background-color: #353535;
+}
+
+section .productosTres h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section .productosTres div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+section .productosTres div table .tabla__Uno p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+section .productosTres div table .tabla__Dos p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+}
+
+/*finProductos*/
+/*inicioNosotros*/
+.nosotrosUno h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nosotrosUno .nosotros__Uno p {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 4px;
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: normal;
+  line-height: 2.6rem;
+}
+
+.nosotrosPadre {
+  max-width: 800px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-grid-columns: 200px 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px 200px;
+  -ms-grid-rows: 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px;
+}
+
+.nosotrosPadre img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-transition: all 2.5s;
+  transition: all 2.5s;
+}
+
+/*finNosotros*/
+/*inicioFaqs*/
+.faqsUno h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div .container {
+  background-color: #4F4F4D;
+}
+
+div .accordion-button {
+  font-size: 20px;
+}
+
+div .accordion-body {
+  font-size: 15px;
+}
+
+div .accordion-body p {
+  font-family: 'Klee One', cursive;
+  color: black;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align: justify;
+  font-style: normal;
+  line-height: 2.6rem;
+}
+
+/*finFaqs*/
+/*inicioContacto*/
+.sectionC1 h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #ffffff;
+}
+
+.sectionC1 img {
+  border: solid beige;
+}
+
+.sectionC1 h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+.sectionC2 form {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+}
+
+.sectionC3 h4 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sectionC3 .iconosUno a {
+  font-size: 10px;
+  font-family: 'Klee One', cursive;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: beige;
+  list-style: none;
+}
+
+/*finContacto*/
+/*inicioIniciasSesion*/
+.inicioSesionUno h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.inicioSesionUno h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+.inicioSesionDos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inicioSesionDos div p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+}
+
+.inicioSesionDos div input {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.inicioSesionTres div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3;
+}
+
+.inicioSesionTres div input {
+  background-color: #2b2e29;
+  color: #ddd588;
+}
+
+.inicioSesionCuatro h4 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+.inicioSesionCuatro div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.inicioSesionCuatro div input {
+  margin: 10px;
+}
+
+.inicioSesionCuatro div p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+}
+
+/*finIniciasSesion*/
+/*inicioMiBolsa*/
+.productosUno h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.productosUno .productosDos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.productosUno .productosDos ul li {
+  list-style: none;
+}
+
+.productosUno .productosDos ul li p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  line-height: 3rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.productosTres {
+  background-color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.productosTres h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.productosTres h4 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.productosTres div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.productosTres table .tabla__Uno p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.productosTres table .tabla__Dos p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+}
+
+.productosTres ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.productosTres ol .li__Dos {
+  list-style: none;
+}
+
+.productosTres ol .li__Dos p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+  line-height: 2.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*finMiBolsa*/
+/*inicioTyC*/
+.tycSection h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tycSection h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.tycSection p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: justify;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
+/*finTyC*/
+/*inicioNewsletter*/
+.tycSection h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tycSection h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tycSection p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+}
+
+/*finNewsletter*/
+/*inicioPoliticasDePrivacidad*/
+.tycSection h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tycSection h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.tycSection p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: justify;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
+/*finPoliticasDePrivacidad*/
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Klee One', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
