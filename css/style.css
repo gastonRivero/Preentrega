@@ -142,12 +142,11 @@ section .section1 .section1__parrafo {
 
 section .section1 .section1__img {
   border: solid beige;
-  border: solid beige;
   float: left;
 }
 
 .section2 {
-  background-color: #333333;
+  background-color: #5c5c5c;
   border: 4px solid black;
   padding: 15px;
   margin: 10px;
@@ -180,7 +179,7 @@ section {
   color: white;
   font-weight: normal;
   font-style: italic;
-  background-color: #4F4F4D;
+  background-color: #5c5c5c;
 }
 
 section h1 {
@@ -328,7 +327,7 @@ section .productosDos ul li ol .li__Tres p {
 }
 
 section .productosTres {
-  background-color: #353535;
+  background-color: #5c5c5c;
 }
 
 section .productosTres h2 {

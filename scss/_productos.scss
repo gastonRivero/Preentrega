@@ -1,13 +1,19 @@
 /*inicioProductos*/
+$negro: black;
+$negroEscala:#202020;
+$gris: #5c5c5c;
+$blanco: white;
+$beige: beige;
+
 section{
     font-family: 'Klee One', cursive;
     color: white;
     font-weight: normal;
     font-style: italic;
-    background-color: #4F4F4D;
+    background-color: $gris;
     h1{
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 5rem;
         font-weight: bold;
         text-align: center;
@@ -15,7 +21,7 @@ section{
        }
     h2{
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 5rem;
         font-weight: bold;
         text-align: center;
@@ -24,7 +30,7 @@ section{
     .productosUno{
             .productos__P1{    
                             font-family: 'Klee One', cursive;
-                            color: white;
+                            color: $blanco;
                             font-size: 1.5rem;
                             font-weight: normal;
                             text-align: center;
@@ -33,7 +39,7 @@ section{
                             } 
             .productos__P2{    
                             font-family: 'Klee One', cursive;
-                            color: white;
+                            color: $blanco;
                             font-size: 2rem;
                             font-weight: normal;
                             text-align: center;
@@ -52,7 +58,7 @@ section{
                 list-style: none;
                 p{
                 font-family: 'Klee One', cursive;
-                color: white;
+                color: $blanco;
                 font-size: 2.5rem;
                 font-weight: normal;
                 text-align: center;
@@ -73,7 +79,7 @@ section{
                     list-style: none;
                     p{
                     font-family: 'Klee One', cursive;
-                    color: white;
+                    color: $blanco;
                     font-size: 1rem;
                     font-weight: normal;
                     text-align: left;
@@ -87,7 +93,7 @@ section{
                     list-style: none;
                     p{
                     font-family: 'Klee One', cursive;
-                    color: white;
+                    color: $blanco;
                     font-size: 1rem;
                     font-weight: normal;
                     text-align: left;
@@ -101,7 +107,7 @@ section{
                     list-style: none;
                     p{
                     font-family: 'Klee One', cursive;
-                    color: white;
+                    color: $blanco;
                     font-size: 1rem;
                     font-weight: normal;
                     text-align: left;
@@ -116,10 +122,10 @@ section{
             }
                 }
     .productosTres{
-               background-color:#353535;
+               background-color: $gris;
                 h2{
                     font-family: 'Roboto', sans-serif;
-                    color: white;
+                    color: $blanco;
                     font-size: 5rem;
                     font-weight: bold;
                     text-align: center;
@@ -132,7 +138,7 @@ section{
                         .tabla__Uno{
                             p{    
                                 font-family: 'Klee One', cursive;
-                                color: white;
+                                color: $blanco;
                                 font-size: 2.5rem;
                                 font-weight: normal;
                                 text-align: center;
@@ -143,7 +149,7 @@ section{
                             .tabla__Dos{
                                 p{    
                                 font-family: 'Klee One', cursive;
-                                color: white;
+                                color: $blanco;
                                 font-size: 2rem;
                                 font-weight: normal;
                                 text-align: center;
