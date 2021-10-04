@@ -1,8 +1,13 @@
 /*inicioTyC*/
+$negro: black;
+$negroEscala:#202020;
+$gris: #5c5c5c;
+$blanco: white;
+$beige: beige;
 .tycSection{
     h1{
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: $blanco;
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
@@ -10,7 +15,7 @@
     }
     h2{
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 2rem;
         font-weight: bold;
         text-align: left;
@@ -19,7 +24,7 @@
 
     p{
     font-family: 'Klee One', cursive;
-    color: white;
+    color: $blanco;
     font-size: 1.5rem;
     font-weight: normal;
     text-align: justify;
