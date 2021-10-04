@@ -1,23 +1,28 @@
 /*inicioIniciasSesion*/
+$negro: black;
+$negroEscala:#202020;
+$gris: #5c5c5c;
+$blanco: white;
+$beige: beige;
 .inicioSesionUno{
     h2{            
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 4rem;
         font-weight: bold;
         text-align: center;
         text-transform: uppercase;
-        text-shadow: 2px 2px 5px #5c5c5c;
+        text-shadow: 2px 2px 5px $gris;
         animation-duration: 4s;
         animation-name: aparecer;
         }
     h3{
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
-        text-shadow: 2px 2px 5px #5c5c5c;
+        text-shadow: 2px 2px 5px $gris;
     }
 }
 
@@ -26,7 +31,7 @@
         display: flex;       
         p{
             font-family: 'Klee One', cursive;
-            color: white;
+            color: $blanco;
             font-size: 2rem;
             font-weight: normal;
             text-align: left;
@@ -46,18 +51,18 @@
                 padding: 3;
                 
                 input{
-                    background-color: rgb(43, 46, 41);
-                color: rgb(221, 213, 136);}
+                    background-color: $negroEscala;
+                color: $beige;}
             }
 }
 .inicioSesionCuatro{
     h4{
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
-        text-shadow: 2px 2px 5px #5c5c5c;
+        text-shadow: 2px 2px 5px $gris;
     }
     div{
         display: flex;
@@ -67,7 +72,7 @@
         }
         p{
             font-family: 'Klee One', cursive;
-            color: white;
+            color: $blanco;
             font-size: 2rem;
             font-weight: normal;
             text-align: left;
