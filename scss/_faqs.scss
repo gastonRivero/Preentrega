@@ -1,8 +1,13 @@
 /*inicioFaqs*/
+$negro: black;
+$negroEscala:#202020;
+$gris: #5c5c5c;
+$blanco: white;
+$beige: beige;
 .faqsUno{
     h1{
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 5rem;
         font-weight: bold;
         text-align: center;
@@ -11,7 +16,7 @@
 }
 div{
     .container{
-        background-color: #4F4F4D;
+        background-color: $gris;
     }
     .accordion-button{
         font-size: 20px;
@@ -22,7 +27,7 @@ div{
     .accordion-body{
         p{
         font-family: 'Klee One', cursive;
-        color: rgb(0, 0, 0);
+        color: $negro;
         font-size: 2rem;
         font-weight:lighter;
         text-align: justify;
