@@ -1,22 +1,28 @@
 /*inicioIndex*/
+$negro: black;
+$negroEscala:#202020;
+$gris: #5c5c5c;
+$blanco: white;
+$beige: beige;
+
   section {
-    background-image: radial-gradient(black, #202020);
-    border: 4px solid black;
+    background-image: radial-gradient($negro, $negroEscala);
+    border: 4px solid $negro;
     padding: 15px;
     margin: 10px;
     .section1{
         .section1__titulo{
             font-family: 'Roboto', sans-serif;
-            color: white;
+            color: $blanco;
             font-size: 4rem;
             font-weight: bold;
             text-align: center;
             text-transform: uppercase;
-            text-shadow: 2px 2px 5px #5c5c5c;
+            text-shadow: 2px 2px 5px $gris;
           }
         .section1__parrafo{
             font-family: 'Klee One', cursive;
-            color: white;
+            color: $blanco;
             font-size: 1.5rem;
             font-weight: normal;
             text-align: justify;
@@ -24,29 +30,28 @@
             line-height: 2.6rem;
           }
           .section1__img{
-            border: solid beige;
-            border: solid beige;
+            border: solid $beige;
             float: left
           }
     }
   }
 .section2 {
-    background-color: #333333;
-    border: 4px solid black;
+    background-color: $gris;
+    border: 4px solid $negro;
     padding: 15px;
     margin: 10px;
     .section2__titulo {
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: $blanco;
         font-size: 4rem;
         font-weight: bold;
         text-align: center;
         text-transform: uppercase;
-        text-shadow: 2px 2px 5px #5c5c5c;
+        text-shadow: 2px 2px 5px $gris;
       }
     .section2__parrafo{
         font-family: 'Klee One', cursive;
-        color: white;
+        color: $blanco;
         font-size: 1.5rem;
         font-weight: normal;
         text-align: center;
