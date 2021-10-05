@@ -11,6 +11,9 @@
 @import "newsletter";
 @import "politicasDePrivacidad";
 
+
+
+
 * {
 margin: 0%;
 padding: 0%;
@@ -26,9 +29,28 @@ html{
 body{
     background-color: black;
 }
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: rgb(124, 124, 124);
+    }
+} 
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: rgb(83, 83, 83);
+    }
+} 
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: rgb(29, 29, 29);
+    }
+} 
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: black;
+    }
+}
 
 
 
 
- 
- 
+
