@@ -29,5 +29,19 @@ $beige: beige;
         text-align: left;
         font-style: italic;
     }   
+    .newsletterTres{
+        div{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 3;
+            
+            input{
+                background-color: $negroEscala;
+            color: $beige;
+            margin: 10px;
+            font-size: 2rem;}
+        }
+    }
 }
 /*finNewsletter*/

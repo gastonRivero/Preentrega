@@ -562,6 +562,8 @@ div .accordion-body p {
 .inicioSesionTres div input {
   background-color: #202020;
   color: beige;
+  margin: 5px;
+  font-size: 1.5rem;
 }
 
 .inicioSesionCuatro h4 {
@@ -790,6 +792,27 @@ div .accordion-body p {
   font-weight: normal;
   text-align: left;
   font-style: italic;
+}
+
+.tycSection .newsletterTres div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3;
+}
+
+.tycSection .newsletterTres div input {
+  background-color: #202020;
+  color: beige;
+  margin: 10px;
+  font-size: 2rem;
 }
 
 /*finNewsletter*/
