@@ -59,6 +59,54 @@ $beige: beige;
         line-height: 2.6rem;
       }
   }
+  .section3{
+    .section3__titulo{
+        font-family: 'Roboto', sans-serif;
+        color: $blanco;
+        font-size: 4rem;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 5px $gris;
+      }
+    .section3__parrafo{
+        font-family: 'Klee One', cursive;
+        color: $blanco;
+        font-size: 1.5rem;
+        font-weight: normal;
+        text-align: left;
+        font-style: italic;
+        line-height: 2.6rem;
+      }
+      .section3__img{
+        border: solid $beige;
+        float: right
+      }
+}
+.section4 {
+  background-color: $gris;
+  border: 4px solid $negro;
+  padding: 15px;
+  margin: 10px;
+  .section4__titulo {
+      font-family: 'Roboto', sans-serif;
+      color: $blanco;
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 5px $gris;
+    }
+  .section4__parrafo{
+      font-family: 'Klee One', cursive;
+      color: $blanco;
+      font-size: 1.5rem;
+      font-weight: normal;
+      text-align: justify;
+      font-style: italic;
+      line-height: 2.6rem;
+    }
+}
 /*finIndex*/
   
 

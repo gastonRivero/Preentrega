@@ -172,6 +172,58 @@ section .section1 .section1__img {
   line-height: 2.6rem;
 }
 
+.section3 .section3__titulo {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+.section3 .section3__parrafo {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
+.section3 .section3__img {
+  border: solid beige;
+  float: right;
+}
+
+.section4 {
+  background-color: #5c5c5c;
+  border: 4px solid black;
+  padding: 15px;
+  margin: 10px;
+}
+
+.section4 .section4__titulo {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #5c5c5c;
+}
+
+.section4 .section4__parrafo {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: justify;
+  font-style: italic;
+  line-height: 2.6rem;
+}
+
 /*finIndex*/
 /*inicioProductos*/
 section {

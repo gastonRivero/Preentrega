@@ -70,7 +70,20 @@ header {
             text-align: left;
             font-style: italic;
           }
+          .iconosFooter{
+            a{        
+              font-size: 60px;
+              font-family: 'Klee One', cursive;
+              font-weight: normal;
+              text-align: left;
+              font-style: italic;
+              text-decoration:none;
+              text-transform: uppercase;
+              color: $beige;
+              list-style: none;}
+          }
       }
+      
       @keyframes aparecer {
         0% {
           opacity: 0;
