@@ -6,35 +6,36 @@ $blanco: white;
 $beige: beige;
 
 section{
-    font-family: 'Klee One', cursive;
+    font-family: 'roboto', sans-serif;
     color: $blanco;
     font-weight: normal;
-    font-style: italic;
+    
     background-color: $gris;
     h1{
         font-family: 'Roboto', sans-serif;
         color: $blanco;
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: bold;
         text-align: center;
+        font-style: italic;
         text-transform: uppercase;
        }
     h2{
         font-family: 'Roboto', sans-serif;
         color: $blanco;
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: bold;
         text-align: center;
+        font-style: italic;
         text-transform: uppercase;
        }
     .productosUno{
             .productos__P1{    
                             font-family: 'Klee One', cursive;
                             color: $blanco;
-                            font-size: 1.5rem;
+                            font-size: 15px;
                             font-weight: normal;
                             text-align: center;
-                            font-style: italic;
                             line-height: 2.6rem;
                             } 
             .productos__P2{    
@@ -43,9 +44,9 @@ section{
                             font-size: 2rem;
                             font-weight: normal;
                             text-align: center;
-                            font-style: italic;
-                            line-height: 2.6rem;}
-                  }
+                            line-height: 2.6rem;
+                        }
+            }
 
     .productos__Contenedor{
 
@@ -72,7 +73,12 @@ section{
                 }
 
                 p{
-
+                    font-family: 'Klee One', cursive;
+                    color: $blanco;
+                    font-size: 2rem;
+                    font-weight: normal;
+                    text-align: center;
+                    line-height: 2.6rem;
                 }
             }
         }
@@ -84,7 +90,7 @@ section{
                 h2{
                     font-family: 'Roboto', sans-serif;
                     color: $blanco;
-                    font-size: 5rem;
+                    font-size: 4rem;
                     font-weight: bold;
                     text-align: center;
                     text-transform: uppercase; 
@@ -95,18 +101,17 @@ section{
                      table{
                         .tabla__Uno{
                             p{    
-                                font-family: 'Klee One', cursive;
+                                font-family: 'roboto', sans-serif;
                                 color: $blanco;
-                                font-size: 2.5rem;
+                                font-size: 20px;
                                 font-weight: normal;
-                                text-align: center;
-                                font-style: italic;
+                                text-align: center;                              
                                 text-transform: uppercase;
                               }
                                     }
                             .tabla__Dos{
                                 p{    
-                                font-family: 'Klee One', cursive;
+                                font-family: 'Klee One', sans-serif;
                                 color: $blanco;
                                 font-size: 2rem;
                                 font-weight: normal;

@@ -10,24 +10,22 @@ $beige: beige;
     border: 4px solid $negro;
     padding: 15px;
     margin: 10px;
+  
     .section1{
       cursor: context-menu;
         .section1__titulo{
-            font-family: 'Roboto', sans-serif;
             color: $blanco;
-            font-size: 4rem;
             font-weight: bold;
             text-align: center;
             text-transform: uppercase;
             text-shadow: 2px 2px 5px $gris;
           }
         .section1__parrafo{
-            font-family: 'Klee One', cursive;
+            font-family: 'roboto', cursive;
             color: $blanco;
-            font-size: 1.5rem;
+            font-size: 15px;
             font-weight: normal;
             text-align: justify;
-            font-style: italic;
             line-height: 2.6rem;
           }
           .section1__img{
@@ -54,12 +52,11 @@ $beige: beige;
         text-shadow: 2px 2px 5px $gris;
       }
     .section2__parrafo{
-        font-family: 'Klee One', cursive;
+        font-family: 'roboto', cursive;
         color: $blanco;
-        font-size: 1.5rem;
+        font-size: 15px;
         font-weight: normal;
         text-align: center;
-        font-style: italic;
         line-height: 2.6rem;
       }
   }
@@ -75,12 +72,11 @@ $beige: beige;
         text-shadow: 2px 2px 5px $gris;
       }
     .section3__parrafo{
-        font-family: 'Klee One', cursive;
+        font-family: 'roboto', cursive;
         color: $blanco;
-        font-size: 1.5rem;
+        font-size: 15px;
         font-weight: normal;
         text-align: left;
-        font-style: italic;
         line-height: 2.6rem;
       }
       .section3__img{
@@ -114,12 +110,10 @@ $beige: beige;
 
 
       .section4__parrafo{
-        font-family: 'Klee One', cursive;
+        font-family: 'roboto', sans-serif;
         color: $blanco;
-        font-size: 1.5rem;
+        font-size: 15px;
         font-weight: normal;
-        text-align: justify;
-        font-style: italic;
         line-height: 2.6rem;
         text-align: center;
         margin-left: 10px;

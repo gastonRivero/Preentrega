@@ -194,9 +194,7 @@ section .section1 {
 }
 
 section .section1 .section1__titulo {
-  font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 4rem;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -204,12 +202,11 @@ section .section1 .section1__titulo {
 }
 
 section .section1 .section1__parrafo {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   color: white;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: normal;
   text-align: justify;
-  font-style: italic;
   line-height: 2.6rem;
 }
 
@@ -238,12 +235,11 @@ section .section1 .section1__img {
 }
 
 .section2 .section2__parrafo {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   color: white;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: normal;
   text-align: center;
-  font-style: italic;
   line-height: 2.6rem;
 }
 
@@ -262,12 +258,11 @@ section .section1 .section1__img {
 }
 
 .section3 .section3__parrafo {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   color: white;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: normal;
   text-align: left;
-  font-style: italic;
   line-height: 2.6rem;
 }
 
@@ -318,12 +313,10 @@ section .section1 .section1__img {
 }
 
 .section4 .section4__Contenedor .section4__Contenido .section4__parrafo {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', sans-serif;
   color: white;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: normal;
-  text-align: justify;
-  font-style: italic;
   line-height: 2.6rem;
   text-align: center;
   margin-left: 10px;
@@ -335,38 +328,38 @@ section .section1 .section1__img {
 
 /*inicioProductos*/
 section {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', sans-serif;
   color: white;
   font-weight: normal;
-  font-style: italic;
   background-color: #5c5c5c;
 }
 
 section h1 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   text-align: center;
+  font-style: italic;
   text-transform: uppercase;
 }
 
 section h2 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   text-align: center;
+  font-style: italic;
   text-transform: uppercase;
 }
 
 section .productosUno .productos__P1 {
   font-family: 'Klee One', cursive;
   color: white;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: normal;
   text-align: center;
-  font-style: italic;
   line-height: 2.6rem;
 }
 
@@ -376,7 +369,6 @@ section .productosUno .productos__P2 {
   font-size: 2rem;
   font-weight: normal;
   text-align: center;
-  font-style: italic;
   line-height: 2.6rem;
 }
 
@@ -412,6 +404,15 @@ section .productos__Contenedor .productos__Fila .productos__Contenido img {
   border-radius: 5px;
 }
 
+section .productos__Contenedor .productos__Fila .productos__Contenido p {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: 2.6rem;
+}
+
 section .productosTres {
   background-color: #5c5c5c;
 }
@@ -419,7 +420,7 @@ section .productosTres {
 section .productosTres h2 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -436,17 +437,16 @@ section .productosTres div {
 }
 
 section .productosTres div table .tabla__Uno p {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', sans-serif;
   color: white;
-  font-size: 2.5rem;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
-  font-style: italic;
   text-transform: uppercase;
 }
 
 section .productosTres div table .tabla__Dos p {
-  font-family: 'Klee One', cursive;
+  font-family: 'Klee One', sans-serif;
   color: white;
   font-size: 2rem;
   font-weight: normal;
@@ -533,13 +533,6 @@ div .accordion-body p {
 
 /*finFaqs*/
 /*inicioContacto*/
-.banner {
-  min-height: 35vh;
-  background: url(../Imagenes/mate1a.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .sectionC2 form {
   font-family: 'Klee One', cursive;
   color: white;
@@ -1009,6 +1002,7 @@ html {
   font-size: 62.5%;
   font-family: 'Klee One', cursive;
   font-family: 'Roboto', sans-serif;
+  cursor: context-menu;
 }
 
 body {
