@@ -11,95 +11,185 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <p class="headerH">Brave Mate</p>
-        <ol>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="productos.html">Productos</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="faqs.html">FAQS</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="iniciarSesion.html">Iniciar Sesión/Registrate</a></li>
-          <li><a href="miBolsa.html">Mi bolsa</a></li>
-        </ol>
-      </nav>
-    </header>
+      
+      <p class="headerH">Brave Mate</p>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOGO</a>
+
+        <div class="nav-b-contenedor">
+          <div class="nav-iconsB d-lg-none">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/iniciarSesion.html"><i class="bi bi-person-circle"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/miBolsa.html"><i class="bi bi-handbag"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+          <div class="nav-list">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/faqs.html">FAQS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <div class="nav-icons d-none d-lg-block">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/iniciarSesion.html"><i class="bi bi-person-circle"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/miBolsa.html"><i class="bi bi-handbag"></i></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+    <!-- cambiar a main -->
     <section>
       <h1>Nuestros Productos</h1>
-      <article class="productosUno">
+
+      <div class="productosUno">
         <p class="productos__P1">
           En la familia de <em>BraveMate</em> conocemos el detalle que un mate
           tradicional debe tener junto con su sabor, por eso mismo queremos
           transmitir <strong>nuestra</strong> calidad artesanal al mundo.
         </p>
         <p class="productos__P2">¿Queres ser parte?</p>
-      </article>
-      <article class="productosDos">
+      </div>
+
+      <div class="productosDos">
+
         <h2>Productos</h2>
-        <ul>
-          <li><p>Camionero</p></li>
-          <img
-            src="../Imagenes/Camionero.jpg.png"
-            alt="camionero"
-            width="300"
-          />
-          <ol>
-            <li class="li__Uno">
+
+        <div class="container productos__Contenedor">
+
+          <div class="row productos__Fila">
+
+            <div class="col-12 col-md-6 productos__Contenido">
+
+              <h2>Camionero</h2>
+
+              <img
+              src="../Imagenes/Camionero.jpg.png"
+              alt="camionero"
+              width="300"
+              />
+
               <form>
                 <label for="cant"><p>¿Cuantos queres?</p></label>
                 <input required id="cant" type="number" />
               </form>
-            </li>
-            <li class="li__Dos"><p>Agregar a Mi Bolsa</p></li>
-            <li class="li__Tres">
-              <a href="mibolsa.html"> <p>Ir a Mi Bolsa</p></a>
-            </li>
-          </ol>
-          <hr />
-          <li><p>Torpedo</p></li>
-          <img src="../Imagenes/Torpedo.png" alt="Torpedo" width="300" />
-          <ol>
-            <li class="li__Uno">
+
+              <p>Agregar a Mi Bolsa</p>
+
+              <p>ir a mi Bolsa</p>
+
+            </div>
+
+            <div class="col-12 col-md-6 productos__Contenido">
+
+              <h2>Camionero</h2>
+
+              <img
+              src="../Imagenes/Camionero.jpg.png"
+              alt="camionero"
+              width="300"
+              />
+
               <form>
                 <label for="cant"><p>¿Cuantos queres?</p></label>
                 <input required id="cant" type="number" />
               </form>
-            </li>
-            <li class="li__Dos"><p>Agregar a Mi Bolsa</p></li>
-            <li>
-              <a href="mibolsa.html"><p>Ir a Mi Bolsa</p></a>
-            </li>
-          </ol>
-          <hr />
-          <li class="li__Tres"><p>Imperiales</p></li>
-          <img src="../Imagenes/Imperial.png" alt="Imperial" width="300" />
-          <ol>
-            <li class="li__Uno">
+
+              <p>Agregar a Mi Bolsa</p>
+
+              <p>ir a mi Bolsa</p>
+
+            </div>
+
+            <div class="col-12 col-md-6 productos__Contenido">
+
+              <h2>Camionero</h2>
+
+              <img
+              src="../Imagenes/Camionero.jpg.png"
+              alt="camionero"
+              width="300"
+              />
+
               <form>
                 <label for="cant"><p>¿Cuantos queres?</p></label>
                 <input required id="cant" type="number" />
               </form>
-            </li>
-            <li class="li__Dos"><p>Agregar a Mi Bolsa</p></li>
-            <li class="li__Tres">
-              <a href="mibolsa.html"><p>Ir a Mi Bolsa</p></a>
-            </li>
-          </ol>
-          <hr />
-          <li><p>Yerba Mate</p></li>
-          <img src="../Imagenes/descarga.jfif" alt="Yerba" width="300" />
-          <ol>
-            <li class="li__Uno"><p>Agregar a Mi Bolsa</p></li>
-            <li class="li__Dos">
-              <a href="mibolsa.html"><p>Ir a Mi Bolsa</p></a>
-            </li>
-          </ol>
-        </ul>
-      </article>
+
+              <p>Agregar a Mi Bolsa</p>
+
+              <p>ir a mi Bolsa</p>
+
+            </div>
+
+            <div class="col-12 col-md-6 productos__Contenido">
+
+              <h2>Camionero</h2>
+
+              <img
+              src="../Imagenes/Camionero.jpg.png"
+              alt="camionero"
+              width="300"
+              />
+
+              <form>
+                <label for="cant"><p>¿Cuantos queres?</p></label>
+                <input required id="cant" type="number" />
+              </form>
+
+              <p>Agregar a Mi Bolsa</p>
+
+              <p>ir a mi Bolsa</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
       <article class="productosTres">
         <hr />
         <h2>Tamaños</h2>
@@ -132,15 +222,21 @@
     <footer>
       <h4 class="footerH">LogoBraveMate</h4>
       <ul>
-        <li><a href="tyC.html">TyC</a></li>
+        <li><a href="../Paginas/tyC.html">TyC</a></li>
         <li>
-          <a href="politicasDePrivacidad.html">Políticas de Privacidad</a>
+          <a href="../Paginas/politicasDePrivacidad.html">Políticas de Privacidad</a>
         </li>
-        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="../Paginas/newsletter.html">Newsletter</a></li>
       </ul>
+      <ul class="iconosFooter"><!--Juntar y agrandar-->
+        <li><a href="https://www.instagram.com/gastonrivero1/"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/gast%C3%B3n-emiliano-rivero-94b18b15a/"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/Gaston.Emiliano.Rivero010/"><i class="bi bi-facebook"></i></a></li>
+      </ul>
+
       <p>Desarrollado por Gastón Rivero 04/08/2021 ©</p>
     </footer>
-    <script
+<script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"

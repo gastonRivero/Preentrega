@@ -4,6 +4,54 @@ $negroEscala:#202020;
 $gris: #5c5c5c;
 $blanco: white;
 $beige: beige;
+
+
+.sesionContenedor{
+
+    height: 65vh;
+    font-size: large;
+
+    h2{
+        text-align: center;
+        margin: 20px;
+        color: white;
+    }
+
+    .sesionContenido{
+        
+        .sesionFormulario{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3{
+                color: white;
+                margin: 20px 10px 20px 10px;
+            }
+
+            .formMedia{
+                margin-top: 15px;
+                display: flex;
+            }
+
+            .submitButton{
+                display: flex;
+                justify-content: center;
+            }
+
+            .radio{
+                display: flex;
+
+            }
+
+        }
+    }
+}
+
+
+
+
+
 .inicioSesionUno{
     h2{            
         font-family: 'Roboto', sans-serif;

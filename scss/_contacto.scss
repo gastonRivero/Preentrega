@@ -4,29 +4,13 @@ $negroEscala:#202020;
 $gris: #5c5c5c;
 $blanco: white;
 $beige: beige;
-.sectionC1{
-      h1{
-        font-family: 'Roboto', sans-serif;
-        color: $blanco;
-        font-size: 3rem;
-        text-align: center;
-        text-transform: uppercase;
-        text-shadow: 2px 2px 5px $gris;
-      }
-      img {
-        border: solid $beige;
-        
-      }
-      h3 {
-        font-family: 'Roboto', sans-serif;
-        color: $blanco;
-        font-size: 4rem;
-        font-weight: bold;
-        text-align: center;
-        text-transform: uppercase;
-        text-shadow: 2px 2px 5px $gris;
-      }
+    .banner{
+      min-height: 35vh;
+      background: url(../Imagenes/mate1a.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
     }
+
 .sectionC2{
     
     form{    
@@ -36,6 +20,22 @@ $beige: beige;
         font-weight: normal;
         text-align: left;
         font-style: italic;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .form__Info{
+          display: flex;
+          flex-direction: column;
+        }
+
+        .form__Buttons{
+          display: flex;
+          margin-top: 10px;
+          width: 200px;
+          justify-content: space-evenly;
+        }
     }
 
 }

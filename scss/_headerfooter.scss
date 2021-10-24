@@ -1,3 +1,4 @@
+$gris: #5c5c5c;
 /*inicioHeader*/
 header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(Black), to(#202020));
@@ -8,6 +9,7 @@ header {
     text-align: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+
         .headerH{
             font-family: 'Roboto', sans-serif;
             color: white;
@@ -15,26 +17,72 @@ header {
             text-align: center;
             text-transform: uppercase;
             text-shadow: 2px 2px 5px #5c5c5c;
-          }
-        nav{            
-            li{
-                display: inline;
-            padding: 1rem;
-            margin: 2rem;
-             }
-             a{
-                font-family: 'Klee One', cursive;
-                text-decoration: none;
-                text-transform: uppercase;
-                color: beige;
-                font-size: 1.5rem;
-                border: beige;
-             }
         }
-    }
+
+
+        nav{
+
+          .nav-b-contenedor{
+            display: flex;
+            .nav-iconsB{
+              ul{
+                display: flex;
+                li{
+                  list-style: none;
+                  a{
+                    color: white !important;
+                  }
+                }
+              }
+            }
+          }
+
+          .navbar-collapse{
+            justify-content: center;
+
+            .nav-item{
+
+              list-style: none;
+
+              .nav-link{
+                color: white !important;
+                margin: 0px 10px 0px 10px;
+              }
+    
+              .nav-link:hover{
+                color: $gris !important;
+              }
+            }
+
+            
+          }
+
+          .nav-icons{
+            color: white !important;
+            position: absolute;
+            right: 25px;
+            ul{
+              display: flex;
+            }
+
+            .nav-link:hover{
+              color: $gris !important;
+            }
+          }
+
+          .nav-icons:hover{
+            color: $gris !important;
+          }
+        }
+
+}
+
+
 /*finHeader*/
 /*inicioFooter*/
     footer {
+      cursor: context-menu;
+      margin-top: 30px;
         background-image: -webkit-gradient(linear, left top, left bottom, from(#202020), to(black));
         background-image: linear-gradient(#202020, black);
         background-size: cover;
@@ -49,6 +97,8 @@ header {
             text-align: center;
             text-transform: uppercase;
             text-shadow: 2px 2px 5px #5c5c5c;
+            margin-top: 10px;
+             padding: 30px;
           }
         li {
             display: inline;
@@ -70,17 +120,29 @@ header {
             text-align: left;
             font-style: italic;
           }
+          ul{
+            li{
+              a{
+                text-decoration: none;
+              }
+            }
+          }
           .iconosFooter{
             a{        
-              font-size: 60px;
+              font-size: 20px;
               font-family: 'Klee One', cursive;
               font-weight: normal;
               text-align: left;
               font-style: italic;
               text-decoration:none;
               text-transform: uppercase;
-              color: $beige;
-              list-style: none;}
+              color: beige;
+              list-style: none;
+            }
+          }
+          p{
+            text-align: center;
+            margin-top: 20px;
           }
       }
       
