@@ -133,13 +133,13 @@ footer ul li a {
 
 footer .iconosFooter a {
   font-size: 20px;
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   font-weight: normal;
   text-align: left;
   font-style: italic;
   text-decoration: none;
   text-transform: uppercase;
-  color: beige;
+  color: white;
   list-style: none;
 }
 
@@ -362,6 +362,16 @@ section .productos__Contenedor .productos__Fila .productos__Contenido p {
   font-weight: normal;
   text-align: center;
   line-height: 2.6rem;
+}
+
+section .productos__Contenedor .productos__Fila .productos__Contenido a {
+  font-family: 'Klee One', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: 2.6rem;
+  text-decoration: none;
 }
 
 section .productosTres {
