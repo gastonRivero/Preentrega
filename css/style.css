@@ -225,12 +225,13 @@ section .section1 .section1__img {
 }
 
 .section2 .section2__titulo {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'roboto', cursive;
   color: white;
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+  font-style: italic;
   text-shadow: 2px 2px 5px #5c5c5c;
 }
 
@@ -950,8 +951,6 @@ div .accordion-body p {
 
 html {
   font-size: 62.5%;
-  font-family: 'Klee One', cursive;
-  font-family: 'Roboto', sans-serif;
   cursor: context-menu;
 }
 

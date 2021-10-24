@@ -43,12 +43,13 @@ $beige: beige;
     padding: 15px;
     margin: 10px;
     .section2__titulo {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'roboto', cursive;
         color: $blanco;
         font-size: 4rem;
         font-weight: bold;
         text-align: center;
         text-transform: uppercase;
+        font-style: italic;
         text-shadow: 2px 2px 5px $gris;
       }
     .section2__parrafo{
