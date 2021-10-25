@@ -14,7 +14,7 @@ section{
     h1{
         font-family: 'Roboto', sans-serif;
         color: $blanco;
-        font-size: 4rem;
+        font-size: 40px;
         font-weight: bold;
         text-align: center;
         font-style: italic;
@@ -23,7 +23,7 @@ section{
     h2{
         font-family: 'Roboto', sans-serif;
         color: $blanco;
-        font-size: 4rem;
+        font-size: 40px;
         font-weight: bold;
         text-align: center;
         font-style: italic;
@@ -31,20 +31,20 @@ section{
        }
     .productosUno{
             .productos__P1{    
-                            font-family: 'Klee One', cursive;
+                            font-family: 'roboto', cursive;
                             color: $blanco;
                             font-size: 15px;
                             font-weight: normal;
                             text-align: center;
-                            line-height: 2.6rem;
+                            line-height: 26px;
                             } 
             .productos__P2{    
-                            font-family: 'Klee One', cursive;
+                            font-family: 'roboto', cursive;
                             color: $blanco;
-                            font-size: 2rem;
+                            font-size: 20px;
                             font-weight: normal;
                             text-align: center;
-                            line-height: 2.6rem;
+                            line-height: 26px;
                         }
             }
 
@@ -75,18 +75,18 @@ section{
                 p{
                     font-family: 'Klee One', cursive;
                     color: $blanco;
-                    font-size: 2rem;
+                    font-size: 20px;
                     font-weight: normal;
                     text-align: center;
-                    line-height: 2.6rem;
+                    line-height: 26px;
                 }
                 a{                    
                         font-family: 'Klee One', cursive;
                         color: $blanco;
-                        font-size: 2rem;
+                        font-size: 20px;
                         font-weight: normal;
                         text-align: center;
-                        line-height: 2.6rem;
+                        line-height: 26px;
                         text-decoration: none;
                 }
             }
@@ -99,7 +99,7 @@ section{
                 h2{
                     font-family: 'Roboto', sans-serif;
                     color: $blanco;
-                    font-size: 4rem;
+                    font-size: 40px;
                     font-weight: bold;
                     text-align: center;
                     text-transform: uppercase; 
@@ -122,7 +122,7 @@ section{
                                 p{    
                                 font-family: 'Klee One', sans-serif;
                                 color: $blanco;
-                                font-size: 2rem;
+                                font-size: 20px;
                                 font-weight: normal;
                                 text-align: center;
                                 font-style: italic;}

@@ -273,8 +273,12 @@ section .section1 .section1__img {
   margin: 10px;
 }
 
-.carousel-inner {
-  height: 40vh;
+.slide {
+  margin-top: 20px;
+}
+
+.slide img {
+  height: 55vh;
 }
 
 /*inicioProductos*/
@@ -288,7 +292,7 @@ section {
 section h1 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   font-style: italic;
@@ -298,7 +302,7 @@ section h1 {
 section h2 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   font-style: italic;
@@ -306,21 +310,21 @@ section h2 {
 }
 
 section .productosUno .productos__P1 {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   color: white;
   font-size: 15px;
   font-weight: normal;
   text-align: center;
-  line-height: 2.6rem;
+  line-height: 26px;
 }
 
 section .productosUno .productos__P2 {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   color: white;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
-  line-height: 2.6rem;
+  line-height: 26px;
 }
 
 section .productos__Contenedor {
@@ -358,19 +362,19 @@ section .productos__Contenedor .productos__Fila .productos__Contenido img {
 section .productos__Contenedor .productos__Fila .productos__Contenido p {
   font-family: 'Klee One', cursive;
   color: white;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
-  line-height: 2.6rem;
+  line-height: 26px;
 }
 
 section .productos__Contenedor .productos__Fila .productos__Contenido a {
   font-family: 'Klee One', cursive;
   color: white;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
-  line-height: 2.6rem;
+  line-height: 26px;
   text-decoration: none;
 }
 
@@ -381,7 +385,7 @@ section .productosTres {
 section .productosTres h2 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -409,7 +413,7 @@ section .productosTres div table .tabla__Uno p {
 section .productosTres div table .tabla__Dos p {
   font-family: 'Klee One', sans-serif;
   color: white;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
   font-style: italic;
@@ -420,7 +424,7 @@ section .productosTres div table .tabla__Dos p {
 .nosotros .nosotrosUno h2 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 5rem;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -430,13 +434,13 @@ section .productosTres div table .tabla__Dos p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0 4px;
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   color: white;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: normal;
   text-align: left;
   font-style: normal;
-  line-height: 2.6rem;
+  line-height: 26px;
 }
 
 .nosotros .nosotrosPadre {
@@ -495,9 +499,9 @@ div .accordion-body p {
 /*finFaqs*/
 /*inicioContacto*/
 .sectionC2 form {
-  font-family: 'Klee One', cursive;
+  font-family: 'roboto', cursive;
   color: white;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: normal;
   text-align: left;
   font-style: italic;
@@ -540,36 +544,46 @@ div .accordion-body p {
 .sectionC3 h4 {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.sectionC3 .iconosUno a {
+.sectionC3 .iconosUno li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.sectionC3 .iconosUno li a {
   font-size: 10px;
-  font-family: 'Klee One', cursive;
-  font-size: 1.5rem;
+  font-family: 'roboto', sans-serif;
+  font-size: 20px;
   font-weight: normal;
   text-align: left;
   font-style: italic;
   text-decoration: none;
   text-transform: uppercase;
-  color: beige;
+  color: white;
   list-style: none;
 }
 
 /*finContacto*/
 /*inicioIniciasSesion*/
-.sesionContenedor {
-  height: 65vh;
-  font-size: large;
+.sesionContenedor h2 {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 5px #5c5c5c;
 }
 
-.sesionContenedor h2 {
-  text-align: center;
-  margin: 20px;
+.sesionContenedor .sesionContenido {
+  font-family: 'Roboto', cursive;
   color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
 }
 
 .sesionContenedor .sesionContenido .sesionFormulario {
@@ -583,11 +597,17 @@ div .accordion-body p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .sesionContenedor .sesionContenido .sesionFormulario h3 {
+  font-family: 'Roboto', sans-serif;
   color: white;
-  margin: 20px 10px 20px 10px;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px #5c5c5c;
 }
 
 .sesionContenedor .sesionContenido .sesionFormulario .formMedia {
@@ -595,6 +615,8 @@ div .accordion-body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 15px;
+  font-size: 1.5rem;
 }
 
 .sesionContenedor .sesionContenido .sesionFormulario .submitButton {
@@ -604,6 +626,7 @@ div .accordion-body p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 40px;
 }
 
 .sesionContenedor .sesionContenido .sesionFormulario .radio {
@@ -612,93 +635,8 @@ div .accordion-body p {
   display: flex;
 }
 
-.inicioSesionUno h2 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 4rem;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 5px #5c5c5c;
-}
-
-.inicioSesionUno h3 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 2px 2px 5px #5c5c5c;
-}
-
-.inicioSesionDos div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.inicioSesionDos div p {
-  font-family: 'Klee One', cursive;
-  color: white;
-  font-size: 2rem;
-  font-weight: normal;
-  text-align: left;
-  font-style: italic;
-}
-
-.inicioSesionDos div input {
-  margin: 15px;
-  font-size: 1.5rem;
-}
-
-.inicioSesionTres div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 3;
-}
-
-.inicioSesionTres div input {
-  background-color: #202020;
-  color: beige;
-  margin: 5px;
-  font-size: 1.5rem;
-}
-
-.inicioSesionCuatro h4 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 2px 2px 5px #5c5c5c;
-}
-
-.inicioSesionCuatro div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-}
-
-.inicioSesionCuatro div input {
+.sesionContenedor .sesionContenido .sesionFormulario .radio input {
   margin: 10px;
-}
-
-.inicioSesionCuatro div p {
-  font-family: 'Klee One', cursive;
-  color: white;
-  font-size: 2rem;
-  font-weight: normal;
-  text-align: left;
-  font-style: italic;
 }
 
 /*finIniciasSesion*/
@@ -748,7 +686,6 @@ div .accordion-body p {
 }
 
 .productosTres {
-  background-color: #5c5c5c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -767,15 +704,6 @@ div .accordion-body p {
   text-transform: uppercase;
 }
 
-.productosTres h4 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: left;
-  text-transform: uppercase;
-}
-
 .productosTres div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -784,19 +712,19 @@ div .accordion-body p {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+  margin: 10px;
 }
 
-.productosTres table .tabla__Uno p {
-  font-family: 'Klee One', cursive;
+.tabla__Uno p {
+  font-family: 'roboto', cursive;
   color: white;
   font-size: 2rem;
   font-weight: normal;
   text-align: center;
-  font-style: italic;
   text-transform: uppercase;
 }
 
-.productosTres table .tabla__Dos p {
+.tabla__Dos p {
   font-family: 'Klee One', cursive;
   color: white;
   font-size: 1.5rem;
@@ -805,7 +733,7 @@ div .accordion-body p {
   font-style: italic;
 }
 
-.productosTres ol {
+ol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -825,11 +753,11 @@ div .accordion-body p {
   list-style: none;
 }
 
-.productosTres ol .li__Dos {
+ol .li__Dos {
   list-style: none;
 }
 
-.productosTres ol .li__Dos p {
+ol .li__Dos p {
   font-family: 'Klee One', cursive;
   color: white;
   font-size: 2rem;
@@ -839,6 +767,30 @@ div .accordion-body p {
   line-height: 2.6rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.productosCuatro h4 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.productoImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productoImg img {
+  border: solid beige;
+  margin: 10px;
 }
 
 /*finMiBolsa*/

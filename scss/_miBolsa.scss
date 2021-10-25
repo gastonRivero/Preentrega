@@ -42,7 +42,6 @@ ul{
     }
         
 .productosTres{
-       background-color: $gris;
        display: flex;
        flex-flow: column;
         h3{
@@ -53,26 +52,20 @@ ul{
             text-align: center;
             text-transform: uppercase; 
            }
-        h4{
-            font-family: 'Roboto', sans-serif;
-            color: $blanco;
-            font-size: 3rem;
-            font-weight: bold;
-            text-align: left;
-            text-transform: uppercase; 
-           }
+        
            div{
             display: flex;
-            flex-flow: column;}
-        table{
+            flex-flow: column;
+            margin: 10px;}
+}
+        
             .tabla__Uno{
                     p{    
-                    font-family: 'Klee One', cursive;
+                    font-family: 'roboto', cursive;
                     color: $blanco;
                     font-size: 2rem;
                     font-weight: normal;
                     text-align: center;
-                    font-style: italic;
                     text-transform: uppercase;}
                   }
                         
@@ -85,11 +78,12 @@ ul{
                     text-align: center;
                     font-style: italic;
                 }
+                
             }
            
                 
                 
-                }
+                
         ol{    
                     display: flex;
                     justify-content:space-evenly;
@@ -113,6 +107,23 @@ ul{
                         }
             }
         }
-}
+        .productosCuatro{
+            h4{
+                font-family: 'Roboto', sans-serif;
+                color: $blanco;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase; 
+                margin-top: 40px;
+               }
+            }
+            .productoImg{    
+                display:flex;
+                align-items: center;
+                img{   
+                border: solid $beige;
+                margin: 10px;}
+            }
 /*finMiBolsa*/
     

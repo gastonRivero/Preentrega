@@ -10,7 +10,7 @@ $beige: beige;
         h2{
             font-family: 'Roboto', sans-serif;
             color: $blanco;
-            font-size: 5rem;
+            font-size: 50px;
             font-weight: bold;
             text-align: center;
             text-transform: uppercase;
@@ -20,13 +20,13 @@ $beige: beige;
                         p{   
                             flex-wrap: wrap;
                             padding: 0 4px;
-                            font-family: 'Klee One', cursive;
+                            font-family: 'roboto', cursive;
                             color: $blanco;
-                            font-size: 2rem;
+                            font-size: 20px;
                             font-weight: normal;
                             text-align: left;
                             font-style: normal;
-                            line-height: 2.6rem;}
+                            line-height: 26px;}
                          }
         }
 
