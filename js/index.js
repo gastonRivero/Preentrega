@@ -1,0 +1,2 @@
+let nombreUsuario = prompt ("¿Quien quiere ingresar a Brave Mate?");
+ alert("Hola" + " " + nombreUsuario + ", " + "¿Cómo estas? espero que te sientas a gusto en este sitio. Cualquier consulta que tengas, no dudes en escribirnos.")
