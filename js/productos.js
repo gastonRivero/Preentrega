@@ -41,3 +41,27 @@ for (let index = 0; index < btns.length; index++) {
         localStorage.setItem("changuito",changuito);
     });  
 }
+
+
+//sintaxis Jquery
+
+//$("selector").action()
+
+// $("#ID");  document.getElementById
+// $(".CLASS");document.getElementsByClassName
+// $("TAG"); document.getElementsByTagName
+
+// $(document).ready(function(){
+// console.log("El DOM esta cargado")
+// });
+
+$(() => {
+    console.log("El DOM esta cargado")
+})
+
+$("#notaMuestra").append(`Recordá, modificar el CSS, para que los productos queden ordenados`);
+$("#notaMuestra").append(`<button id= "theBtn">Click</button>`);
+//asociar evento
+$("#theBtn").on(`click`, ()=> {
+    alert("Acordate de hacer los cambios")
+})
