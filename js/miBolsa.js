@@ -32,3 +32,7 @@ for (let index = 0; index < jsonChanguito.length; index++) {
         
     });
 }
+
+$(() => {
+    console.log("El DOM esta cargado")
+})

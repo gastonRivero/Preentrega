@@ -21,6 +21,8 @@ localStorage.setItem("productos",JSON.stringify(listaProductos));
 //iniciamo changuito en 0
 localStorage.setItem("changuito",new Array());
 
-
+$(() => {
+    console.log("El DOM esta cargado")
+})
 
 
