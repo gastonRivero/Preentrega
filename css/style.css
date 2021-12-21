@@ -378,11 +378,11 @@ section .productos__Contenedor .productos__Fila .productos__Contenido a {
   text-decoration: none;
 }
 
-section .productosTres {
+section #productosTres {
   background-color: #5c5c5c;
 }
 
-section .productosTres h2 {
+section #productosTres h2 {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 40px;
@@ -391,7 +391,7 @@ section .productosTres h2 {
   text-transform: uppercase;
 }
 
-section .productosTres div {
+section #productosTres div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -401,7 +401,7 @@ section .productosTres div {
           flex-flow: column;
 }
 
-section .productosTres div table .tabla__Uno p {
+section #productosTres div table .tabla__Uno p {
   font-family: 'roboto', sans-serif;
   color: white;
   font-size: 20px;
@@ -410,7 +410,7 @@ section .productosTres div table .tabla__Uno p {
   text-transform: uppercase;
 }
 
-section .productosTres div table .tabla__Dos p {
+section #productosTres div table .tabla__Dos p {
   font-family: 'Klee One', sans-serif;
   color: white;
   font-size: 20px;
@@ -685,7 +685,7 @@ div .accordion-body p {
   text-transform: uppercase;
 }
 
-.productosTres {
+#productosTres {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -695,7 +695,7 @@ div .accordion-body p {
           flex-flow: column;
 }
 
-.productosTres h3 {
+#productosTres h3 {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 3rem;
@@ -704,7 +704,7 @@ div .accordion-body p {
   text-transform: uppercase;
 }
 
-.productosTres div {
+#productosTres div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -920,3 +920,63 @@ body {
   background-color: #1d1d1d;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* JQuery css */
+
+#notaMuestra {
+  background-color: #755d5d;
+}
+
+#notaMuestra h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+#notaMuestra p {
+  font-family: 'roboto', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+#verMas{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(8, 8, 8);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#notaMuestra  {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin: 10px;
+}
+
+#contenedorProductosPadre{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+justify-content: center;
+}
+
+#contenedorProductosChangoPadre{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}

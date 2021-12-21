@@ -54,14 +54,24 @@ for (let index = 0; index < btns.length; index++) {
 // $(document).ready(function(){
 // console.log("El DOM esta cargado")
 // });
+// Clase 12
+// $(() => {
+//     console.log("El DOM esta cargado")
+// })
 
-$(() => {
-    console.log("El DOM esta cargado")
-})
+// $("#notaMuestra").append(`Recordá, modificar el CSS, para que los productos queden ordenados`);
+// $("#notaMuestra").append(`<button id= "theBtn">Click</button>`);
+// //asociar evento
+// $("#theBtn").on(`click`, ()=> {
+//      alert("Acordate de hacer los cambios")
+// })
+//Vamos a agregar un botón con efecto en base a jquery "ver más" aplicado a la información que tenia en el HTML.
 
-$("#notaMuestra").append(`Recordá, modificar el CSS, para que los productos queden ordenados`);
-$("#notaMuestra").append(`<button id= "theBtn">Click</button>`);
-//asociar evento
-$("#theBtn").on(`click`, ()=> {
-    alert("Acordate de hacer los cambios")
-})
+$(document).ready(function(){
+    $('#caja').hide();
+    $('#verMas').click(function(){
+        $('#caja').fadeToggle(2000, function(){
+            $('#verMas').text('Ver Menos')
+        });
+    })
+});
