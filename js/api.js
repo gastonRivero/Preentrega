@@ -9,7 +9,7 @@ const renderData = (pokemon) => {
                         <img src="${pokemon.sprites.front_default}" class="card-img-top">
                             <div class="card-body">
                             <h5 class="card-title">"${pokemon.species.name}"</h5>
-                            <p class="card-text">"${pokemon.species.name} posee ${pokemon.base_experience} puntos de experiencia sobre otro pokemon."</p>
+                            <p class="card-text">"${pokemon.species.name} mide ${pokemon.height} metros en relación a otro Pokemon."</p>
                             </div>
                         </div>
                     </div>`
