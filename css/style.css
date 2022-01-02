@@ -281,145 +281,6 @@ section .section1 .section1__img {
   height: 55vh;
 }
 
-/*inicioProductos*/
-section {
-  font-family: 'roboto', sans-serif;
-  color: white;
-  font-weight: normal;
-  background-color: #5c5c5c;
-}
-
-section h1 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  font-style: italic;
-  text-transform: uppercase;
-}
-
-section h2 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  font-style: italic;
-  text-transform: uppercase;
-}
-
-section .productosUno .productos__P1 {
-  font-family: 'roboto', cursive;
-  color: white;
-  font-size: 15px;
-  font-weight: normal;
-  text-align: center;
-  line-height: 26px;
-}
-
-section .productosUno .productos__P2 {
-  font-family: 'roboto', cursive;
-  color: white;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-  line-height: 26px;
-}
-
-section .productos__Contenedor {
-  background-color: #1d1d1d !important;
-}
-
-section .productos__Contenedor .productos__Fila .productos__Contenido {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-section .productos__Contenedor .productos__Fila .productos__Contenido h2 {
-  margin: 10px;
-}
-
-section .productos__Contenedor .productos__Fila .productos__Contenido form {
-  margin-top: 10px;
-}
-
-section .productos__Contenedor .productos__Fila .productos__Contenido img {
-  border-radius: 5px;
-}
-
-section .productos__Contenedor .productos__Fila .productos__Contenido p {
-  font-family: 'Klee One', cursive;
-  color: white;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-  line-height: 26px;
-}
-
-section .productos__Contenedor .productos__Fila .productos__Contenido a {
-  font-family: 'Klee One', cursive;
-  color: white;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-  line-height: 26px;
-  text-decoration: none;
-}
-
-section #productosTres {
-  background-color: #5c5c5c;
-}
-
-section #productosTres h2 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-section #productosTres div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-}
-
-section #productosTres div table .tabla__Uno p {
-  font-family: 'roboto', sans-serif;
-  color: white;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-section #productosTres div table .tabla__Dos p {
-  font-family: 'Klee One', sans-serif;
-  color: white;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-  font-style: italic;
-}
-
-/*finProductos*/
 /*inicioNosotros*/
 .nosotros .nosotrosUno h2 {
   font-family: 'Roboto', sans-serif;
@@ -477,7 +338,15 @@ section #productosTres div table .tabla__Dos p {
   text-align: center;
   text-transform: uppercase;
 }
-
+.faqsUno h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+}
 div .accordion-button {
   font-size: 20px;
 }
@@ -495,6 +364,7 @@ div .accordion-body p {
   font-style: normal;
   line-height: 2.6rem;
 }
+
 
 /*finFaqs*/
 /*inicioContacto*/
@@ -640,160 +510,7 @@ div .accordion-body p {
 }
 
 /*finIniciasSesion*/
-/*inicioMiBolsa*/
-.productosUno h2 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 5rem;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
 
-.productosUno .productosDos ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 3rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.productosUno .productosDos ul li {
-  list-style: none;
-}
-
-.productosUno .productosDos ul li p {
-  font-family: 'Klee One', cursive;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: normal;
-  text-align: center;
-  font-style: italic;
-  line-height: 3rem;
-  text-decoration: underline;
-  text-transform: uppercase;
-}
-
-#productosTres {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-}
-
-#productosTres h3 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#productosTres div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  margin: 10px;
-}
-
-.tabla__Uno p {
-  font-family: 'roboto', cursive;
-  color: white;
-  font-size: 2rem;
-  font-weight: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.tabla__Dos p {
-  font-family: 'Klee One', cursive;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: normal;
-  text-align: center;
-  font-style: italic;
-}
-
-ol {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 3rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  list-style: none;
-}
-
-ol .li__Dos {
-  list-style: none;
-}
-
-ol .li__Dos p {
-  font-family: 'Klee One', cursive;
-  color: white;
-  font-size: 2rem;
-  font-weight: normal;
-  text-align: left;
-  font-style: italic;
-  line-height: 2.6rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.productosCuatro h4 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 40px;
-}
-
-.productoImg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.productoImg img {
-  border: solid beige;
-  margin: 10px;
-}
-
-/*finMiBolsa*/
 /*inicioTyC*/
 .tycSection h1 {
   font-family: 'Roboto', sans-serif;
@@ -924,28 +641,7 @@ body {
 /* JQuery css */
 
 #notaMuestra {
-  background-color: #755d5d;
-}
-
-#notaMuestra h2 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-
-
-#notaMuestra p {
-  font-family: 'roboto', sans-serif;
-  color: white;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: center;
-}
-
+  background-color: #202020;}
 
 #verMas{
   font-family: 'Roboto', sans-serif;
@@ -967,22 +663,88 @@ body {
   margin: 10px;
 }
 
-#contenedorProductosPadre{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-justify-content: center;
-}
-
-#contenedorProductosChangoPadre{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-}
-
-#display{
-  display: flex;
-  justify-content: center;
+#covid {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
   
+}
+
+/*NUEVO CARRO*/
+
+.contenedor_general h1{
+  width: 100%;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contenedor_cards{
+  width: 100%;
+  font-family: 'roboto', sans-serif;
+  color: black;
+  font-weight: normal;
+  background-color: #2c2c2c;
+}
+
+
+.card button{ 
+  font-size: 18px;
+  font-weight: bold;
+  text-align:justify;
+  text-transform: uppercase;
+}
+.card img{
+  padding: 10px;
+  height: 80%;
+  object-fit: cover;
+}
+.contenedor_cards{
+  width: 100%;
+  font-weight: bold;
+  
+}
+.card{
+  margin:60px 0px 40px 0px;
+  width: 100%;
+  height: 90%;
+  margin-left: 10%;
+  margin-left: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.card h5{ color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card h6{ 
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.container .table {
+  margin-top: 30px;
+  color: white;
+  font-weight: normal;
+  background-color: #2c2c2c;
+  font-size: 20px;
+}
+
+.container button{
+  font-size: 18px;
+}
+.productosCuatro h4 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
