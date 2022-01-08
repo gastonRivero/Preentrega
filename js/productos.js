@@ -1,7 +1,3 @@
-$(() => {
-    console.log("El DOM esta cargado")
-})
-
 document.addEventListener("DOMContentLoaded",()=>{
     // fetchData()
     //Si el carrito posee elementos los almacena 
@@ -14,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 // const fetchData=async()=>{
 //     try{
-//         const res=await fetch("productos.json")
+//         const res=await fetch("listaProductos")
 //         const data= await res.json()
 //         pintarCards(data)
 //     }
@@ -122,7 +118,7 @@ templateFooter.querySelector("span").textContent=esTotal
 const clone=templateFooter.cloneNode(true)
 fragment.appendChild(clone)
 Esfooter.appendChild(fragment)
-console.log(esCantidad)
+// console.log(esCantidad)
 
 //Botón para vaciar productos
 const btnVaciar=document.getElementById("vaciar-carrito")
@@ -173,16 +169,49 @@ $(document).ready(function(){
     })
 });
 /*Agrego información util sobre el covid mediante ajax */
-const miUrl = "https://covid-api.mmediagroup.fr/v1/cases?country=Argentina"
+// const miUrl = "https://api.covid19tracking.narrativa.com/api/2020-05-05/country/argentina"
 
-$.get(miUrl,function(resultado,estado){
+// $.get(miUrl,function(resultado,estado){
 
-    if(estado==="success"){
-        $("#covid").append(
-            `<div>Casos confirmados:  ${resultado.All.confirmed}</div>
-            <div>Población total :  ${resultado.All.population}</div>
-            <div>Muertes :  ${resultado.All.deaths}</div>`
+//     if(estado==="success"){
+//         $("#covid").append(
+//             `<div>Casos confirmados:  ${resultado.All.confirmed}</div>
+//             <div>Población total :  ${resultado.All.population}</div>
+//             <div>Pais :  ${resultado.All.Argentina}</div>
+//             <div>Muertes :  ${resultado.All.deaths}</div>`
             
-        )
-    }
-})
+//         )
+//     }
+// })
+window.onload = iniciarCovid;
+
+function iniciarCovid(){
+    let boton = document.getElementById("btnCargar");
+    boton.addEventListener('click', clickBoton);
+}
+async function cargarUrl(url){
+let response = await fetch(url);
+return response.json();
+}
+
+async function clickBoton (){
+    let pais = document.getElementById('selectPais').value;
+    let fecha = document.getElementById('inputFecha').value;
+    let url = `https://api.covid19tracking.narrativa.com/api/${fecha}/country/${pais}`
+let json = await cargarUrl(url)
+let estadisticas = json.dates[fecha].countries[pais];
+
+document.getElementById('today_confirmed').innerHTML = estadisticas.today_confirmed;
+document.getElementById('today_deaths').innerHTML = estadisticas.today_deaths;
+document.getElementById('today_new_confirmed').innerHTML = estadisticas.today_new_confirmed;
+document.getElementById('today_new_deaths').innerHTML = estadisticas.today_new_deaths;
+document.getElementById('today_recovered').innerHTML = estadisticas.today_recovered;
+
+}
+
+
+today_confirmed: 1703352
+today_deaths: 44273
+today_new_confirmed: 13346
+today_new_deaths: 151
+today_recovered: 1494896

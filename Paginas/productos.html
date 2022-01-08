@@ -179,10 +179,10 @@
         <td></td>
         <td>
 
-          <button class="btn btn-info btn-sm" data-id="5">
+          <button class="btn btn-info btn-sm py-1" data-id="5">
             +
           </button>
-          <button class="btn btn-danger btn-sm" data-id="5">
+          <button class="btn btn-danger btn-sm py-1" data-id="5">
             -
           </button>
         </td>
@@ -192,11 +192,35 @@
   </div>
 
   <div id="notaMuestra">
-    <button id="verMas">Información importante</button>
+    <button id="verMas" class="btn btn-danger mt-3">Información importante</button>
     <div id="caja">
       <div id="covid">
         <p> En estos tiempos de pandemia, es importante cuidarnos entre todos. Recorda tenér tu mate personal hasta que
           todo se termine. Nosotros tambien extrañamos compartir los mates. Te queremos. </p>
+          <div>
+            <h3>Estadísticas del COVID19</h3>
+            <b>Fecha </b><input id="inputFecha" type="date" ><br>
+            <b>País </b>
+            <select id="selectPais" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+              <option value="Argentina">Argentina</option>
+              <option value="Spain">España</option>
+              <option value="Peru">Peru</option>
+              <option value="Chile">Chile</option>
+              <option value="Venezuela">Venezuela</option>
+              <option value="Paraguay">Paraguay</option>
+            </select>
+            <br>
+            <button id="btnCargar" class="btn btn-secondary fs-3 mb-2">Cargar estadísticas</button>
+            <br>
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-primary">Total de confirmados: <span id="today_confirmed"></span></li>
+              <li class="list-group-item list-group-item-primary">Total de muertes al día de hoy: <span id="today_deaths"></span></li>
+              <li class="list-group-item list-group-item-primary">Nuevos confirmados: <span id="today_new_confirmed"></span></li>
+              <li class="list-group-item list-group-item-primary">Nuevas muertes: <span id="today_new_deaths"></span></li>
+              <li class="list-group-item list-group-item-primary">Total de recuperados al día de hoy: <span id="today_recovered"></span></li>
+            </ul>
+
+          </div>
       </div>
     </div>
   </div>
